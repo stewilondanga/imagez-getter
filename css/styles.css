@@ -82,7 +82,7 @@ body {
   height: 381px;
 }
 
-/*.image {
+.image {
   position: absolute;
   top: 152px;
   left: 80px;
@@ -91,12 +91,12 @@ body {
   -webkit-transform: rotate(-10deg);
   transform: rotate(-11.8deg);
   -webkit-transform-origin: 0% 0%;
-          transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
   background-size: cover;
   background-position: 50%;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
