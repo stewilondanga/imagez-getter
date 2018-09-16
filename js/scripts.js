@@ -29,15 +29,15 @@ const onMouseMove = (ev) => {
 
 document.body.addEventListener('mousemove', onMouseMove);
 
-/*window.addEventListener('deviceorientation', function(event) {
-  var alpha    = event.alpha;
-  var beta     = event.beta;
-  var gamma    = event.gamma;
+window.addEventListener('deviceorientation', function(event) {
+  var alpha = event.alpha;
+  var beta = event.beta;
+  var gamma = event.gamma;
 
   sw = window.innerWidth * 0.5;
   sh = window.innerHeight * 0.5;
-  mx = Math.max(1, gamma*100); //ev.clientX;
-  my = Math.max(1, beta*100); //ev.clientY;
+  mx = Math.max(1, gamma * 100); //ev.clientX;
+  my = Math.max(1, beta * 100); //ev.clientY;
   ox = ((sw - mx) / -sw).toFixed(2);
   oy = ((sh - my) / -sh).toFixed(2);
   dist = 1 + ((1 - (Math.abs(sw - mx) / sw)) * 1);
@@ -45,7 +45,7 @@ document.body.addEventListener('mousemove', onMouseMove);
 });
 
 
-const onFileReaderLoaded = ev => {
+/*const onFileReaderLoaded = ev => {
   document.querySelector('.image').style.backgroundImage = `url(${ev.target.result})`
 }
 const ondragenter = ev => {
