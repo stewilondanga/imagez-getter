@@ -57,7 +57,7 @@ body {
   border-radius: 20px;
 }
 
-/*.active .container:after {
+.active .container:after {
   position: absolute;
   top: 0;
   left: 0;
@@ -73,7 +73,7 @@ body {
   align-items: center;
 }
 
-.arm {
+/*.arm {
   position: absolute;
   top: 50px;
   left: 278px;
