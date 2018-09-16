@@ -34,7 +34,7 @@ body {
   font-size: 12px;
 }
 
-/*.container {
+.container {
   position: relative;
   flex: 0 0 auto;
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/159368/chad1.jpg);
@@ -42,7 +42,8 @@ body {
   height: 430px;
   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16), 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
 }
-.active .container:before {
+
+/*.active .container:before {
   position: absolute;
   top: 0;
   left: 0;
