@@ -14,7 +14,7 @@ let my = 0;
 let ox = 0;
 let oy = 0;
 
-/*var arm = document.querySelector('.arm');
+var arm = document.querySelector('.arm');
 var dist = 0;
 const onMouseMove = (ev) => {
   sw = window.innerWidth * 0.5;
@@ -27,7 +27,7 @@ const onMouseMove = (ev) => {
   arm.style.transform = `rotate(${ox * 2}deg) translate3d(${ox * 8}px, ${oy * 7}px, ${dist * 30}px)`;
 };
 
-document.body.addEventListener('mousemove', onMouseMove);
+/*document.body.addEventListener('mousemove', onMouseMove);
 
 window.addEventListener('deviceorientation', function(event) {
   var alpha    = event.alpha;
