@@ -21,13 +21,14 @@ body {
   height: 1.5em;
 }
 
-/*.explainer {
+.explainer {
   position: absolute;
   bottom: -26px;
   height: 20px;
   left: 0;
 }
-.explainer p {
+
+/*.explainer p {
   color: white;
   margin: 0;
   font-size: 12px;
