@@ -27,9 +27,9 @@ const onMouseMove = (ev) => {
   arm.style.transform = `rotate(${ox * 2}deg) translate3d(${ox * 8}px, ${oy * 7}px, ${dist * 30}px)`;
 };
 
-/*document.body.addEventListener('mousemove', onMouseMove);
+document.body.addEventListener('mousemove', onMouseMove);
 
-window.addEventListener('deviceorientation', function(event) {
+/*window.addEventListener('deviceorientation', function(event) {
   var alpha    = event.alpha;
   var beta     = event.beta;
   var gamma    = event.gamma;
