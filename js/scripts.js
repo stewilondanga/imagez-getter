@@ -48,12 +48,12 @@ window.addEventListener('deviceorientation', function(event) {
 const onFileReaderLoaded = ev => {
   document.querySelector('.image').style.backgroundImage = `url(${ev.target.result})`
 }
-/*const ondragenter = ev => {
+const ondragenter = ev => {
   ev.stopPropagation();
   ev.preventDefault();
   document.body.classList.add('active');
 }
-const ondragleave = ev => {
+/*const ondragleave = ev => {
   ev.stopPropagation();
   ev.preventDefault();
   document.body.classList.remove('active');
