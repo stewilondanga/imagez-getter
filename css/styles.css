@@ -21,6 +21,86 @@ body {
   height: 1.5em;
 }
 
+body {
+  height: 100vh;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.explainer {
+  position: absolute;
+  bottom: -26px;
+  height: 20px;
+  left: 0;
+}
+.explainer p {
+  color: white;
+  margin: 0;
+  font-size: 12px;
+}
+
+.container {
+  position: relative;
+  flex: 0 0 auto;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/159368/chad1.jpg);
+  width: 777px;
+  height: 430px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16), 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
+}
+.active .container:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  content: '';
+  background: rgba(0, 0, 0, 0.5);
+  border: 5px dashed white;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+  border-radius: 20px;
+}
+.active .container:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  content: 'Drop image here';
+  color: white;
+  font-size: 5rem;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arm {
+  position: absolute;
+  top: 50px;
+  left: 278px;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/159368/chadarm.png);
+  width: 403px;
+  height: 381px;
+}
+
+.image {
+  position: absolute;
+  top: 152px;
+  left: 80px;
+  width: 227px;
+  height: 159px;
+  -webkit-transform: rotate(-10deg);
+  transform: rotate(-11.8deg);
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+  background-size: cover;
+  background-position: 50%;
+}
+
 .containers {
   width: 520px;
   margin: 20px auto;
