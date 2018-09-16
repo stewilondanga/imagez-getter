@@ -58,12 +58,12 @@ const ondragleave = ev => {
   ev.preventDefault();
   document.body.classList.remove('active');
 }
-/*const ondragover = ev => {
+const ondragover = ev => {
   ev.stopPropagation();
   ev.preventDefault();
   document.body.classList.add('active');
 }
-const ondrop = ev => {
+/*const ondrop = ev => {
   ev.stopPropagation();
   ev.preventDefault();
   document.body.classList.remove('active');
