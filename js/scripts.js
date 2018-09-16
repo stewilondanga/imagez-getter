@@ -63,7 +63,7 @@ const ondragover = ev => {
   ev.preventDefault();
   document.body.classList.add('active');
 }
-/*const ondrop = ev => {
+const ondrop = ev => {
   ev.stopPropagation();
   ev.preventDefault();
   document.body.classList.remove('active');
@@ -76,7 +76,7 @@ const ondragover = ev => {
     reader.readAsDataURL(file);
   }
 }
-const container = document.querySelector('.container');
+/*const container = document.querySelector('.container');
 container.addEventListener('dragenter', ondragenter)
 container.addEventListener('dragleave', ondragleave)
 container.addEventListener('dragover', ondragover)
