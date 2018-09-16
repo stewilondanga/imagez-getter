@@ -1,4 +1,11 @@
 body {
+  height: 100vh;
+  background: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,14 +26,6 @@ body {
 
 .my_social a img {
   height: 1.5em;
-}
-
-body {
-  height: 100vh;
-  background: #333;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .explainer {
