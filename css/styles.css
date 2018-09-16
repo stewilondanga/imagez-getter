@@ -73,7 +73,7 @@ body {
   align-items: center;
 }
 
-/*.arm {
+.arm {
   position: absolute;
   top: 50px;
   left: 278px;
@@ -82,7 +82,7 @@ body {
   height: 381px;
 }
 
-.image {
+/*.image {
   position: absolute;
   top: 152px;
   left: 80px;
