@@ -7,14 +7,14 @@ var navigate = (function() {
   });
 })();
 
-/*let sw = 0;
+let sw = 0;
 let sh = 0;
 let mx = 0;
 let my = 0;
 let ox = 0;
 let oy = 0;
 
-var arm = document.querySelector('.arm');
+/*var arm = document.querySelector('.arm');
 var dist = 0;
 const onMouseMove = (ev) => {
   sw = window.innerWidth * 0.5;
