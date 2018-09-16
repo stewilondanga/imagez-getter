@@ -80,4 +80,4 @@ const container = document.querySelector('.container');
 container.addEventListener('dragenter', ondragenter)
 container.addEventListener('dragleave', ondragleave)
 container.addEventListener('dragover', ondragover)
-/*container.addEventListener('drop', ondrop)
+container.addEventListener('drop', ondrop)
