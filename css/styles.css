@@ -28,13 +28,13 @@ body {
   left: 0;
 }
 
-/*.explainer p {
+.explainer p {
   color: white;
   margin: 0;
   font-size: 12px;
 }
 
-.container {
+/*.container {
   position: relative;
   flex: 0 0 auto;
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/159368/chad1.jpg);
